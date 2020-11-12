@@ -1,0 +1,21 @@
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.io.IOException;
+import java.util.StringTokenizer;
+
+public class StringProcessor {
+	
+	static void  stringprinter(String inputString) throws IOException
+	{
+		
+		System.out.println();
+		StringTokenizer st=new StringTokenizer(inputString, "=");
+			
+		String measurements =st.nextToken();
+		String values = st.nextToken();
+	
+			System.out.println("Gia thn parametro:"+measurements+"value is:" +values);
+			
+	}		
+
+}

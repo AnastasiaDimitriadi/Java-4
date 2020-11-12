@@ -1,0 +1,5 @@
+Values from sensor measurements:
+Temperature (oC)=23
+Elevation (m)=7,5
+Gravity (m/s)=9,807 
+Humidity (%)=63
